@@ -115,11 +115,11 @@ function getWeather(){
     replyZone.innerHTML = `天氣:${fullReply[0]}</br>降雨率:${fullReply[1]}%</br>最低溫:${fullReply[2]}度C、最高溫:${fullReply[4]}度C</br>體感溫度:${fullReply[3]}`;
     //以上OK完整進度----------------------------------------------------------------------------------------    
     if(fullReply[0].includes("雨")){
-        replyIMG.src="/img/ame.jpg";
+        replyIMG.src="https://i0.wp.com/arielhsu.tw/wp-content/uploads/20200329213620_44.jpg";
     }else if(fullReply[0].includes("晴")){
-        replyIMG.src="/img/hare.jpg";
+        replyIMG.src="https://img.ltn.com.tw/Upload/news/600/2019/07/26/php3M329R.jpg";
     }else{
-        replyIMG.src="/img/kumo.jpg";
+        replyIMG.src="https://watermark.lovepik.com/photo/20211130/large/lovepik-cloudy-dark-clouds-buildings-picture_501271206.jpg";
     }
 };
 
