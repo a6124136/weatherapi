@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#json {
+  font-family: "標楷體";
+  width: 60vw;
+  height: 500px;
+  box-shadow: 20px 20px 50px rgb(0, 19, 66);
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-image: url("/img/lightHouse.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 1%;
+}
+#json h1 {
+  color: rgb(161, 228, 255);
+}
+#json #selectCity {
+  font-size: 14pt;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+#json #selectCity:active {
+  border: none;
+}
+#json p {
+  margin: 20px;
+  color: #fff;
+  font-size: 12pt;
+}
+#json #cityTime {
+  font-size: 14pt;
+}
+#json #replyAndImg {
+  display: flex;
+  justify-content: center;
+}
+#json #replyAndImg #replyZone {
+  padding: 50px 10px;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 14pt;
+  text-align: start;
+}
+#json #replyAndImg img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10%;
+}/*# sourceMappingURL=style.css.map */

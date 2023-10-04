@@ -1,0 +1,57 @@
+#json{
+    font-family:'標楷體';
+    width: 60vw;
+    height: 500px;
+    box-shadow: 20px 20px 50px rgb(0, 19, 66) ;
+    border-radius: 20px;
+    margin: 0 auto ;
+    // 透明度 0.6 的黑色半透明遮罩
+    background-color: rgba(0, 0, 0, .6);
+  // 設置背景混和模式為相乘模式
+    background-blend-mode: multiply;
+    background-image: url("/img/lightHouse.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 1%;
+    h1{
+        color: rgb(161, 228, 255);
+        // text-shadow: 5px 5px 10px seagreen;
+    }
+    #selectCity{
+        font-size: 14pt;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 5px;
+        &:active{
+            border: none;
+        }
+    }
+    p{
+        margin: 20px;
+        color: #fff;
+        font-size: 12pt;
+        // text-shadow: 5px 5px 10px seagreen;
+    }
+    #cityTime{
+        font-size: 14pt;
+    }
+    #replyAndImg{
+        display: flex;
+        justify-content: center;
+        #replyZone{
+            padding:  50px 10px;
+            background-color: #fff;
+            width: 50%;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border-radius: 20px;
+            font-size: 14pt;
+            text-align: start;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            margin-right: 10%;
+        }
+    }
+}

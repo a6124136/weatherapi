@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fetch.js" defer></script>
+    <!-- <script src="/node_modules/jquery/src/jquery.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CWA-F5F950CC-0504-4F8B-A2F1-8DBC3F188CAA    -->
+    <!-- token -->
+    <!-- https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-F5F950CC-0504-4F8B-A2F1-8DBC3F188CAA&format=JSON&sort=time -->
+    <div id="json">
+        <form action="">
+            <h1>查找縣市</h1>
+            <select id="selectCity" onchange="getlocaldata()">
+                <!-- 這邊用JS插入選項 -->
+            </select>
+            <p>當地預測時段</p>
+            <select name="" id="cityTime" >
+
+            </select>
+            <input type="button" value="點我取得" onclick="getWeather()" id="getWeatherBtn">
+            <p>當地預測時間的天氣</p>
+            <div id="replyAndImg">
+                <div id="replyZone">
+                    <!-- 丟回答的地方 -->
+                </div>
+                <img src="/img/pikacyu.jpg" id="replyIMG" alt="">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
